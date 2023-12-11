@@ -1,37 +1,65 @@
-# common_loading_skeleton
+# Flutter Common Loading Skeleton
 
-A new Flutter project.
+This Flutter project provides a common loading skeleton and error handling wrapper for pages. It includes sample implementations like fetching items from a JSON file, displaying a list, and showing item details.
+
+## Features
+
+- **PageWrapper Widget:** A reusable widget for handling common loading, error, and success states.
+- **SampleItemService:** A service class to fetch sample items from a JSON file.
+- **SampleItemListView:** Displays a list of sample items with loading and error handling.
+- **SampleItemDetailsView:** Displays details for a selected sample item.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application that follows the
-[simple app state management
-tutorial](https://flutter.dev/docs/development/data-and-backend/state-mgmt/simple).
+1. Clone the repository:
 
-For help getting started with Flutter development, view the
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    ```bash
+    git clone https://github.com/mikerashoo/flutter-common-page-wrapper.git
+    ```
 
-## Assets
+2. Navigate to the project directory:
 
-The `assets` directory houses images, fonts, and any other files you want to
-include with your application.
+    ```bash
+    cd flutter-common-loading-skeleton
+    ```
 
-The `assets/images` directory contains [resolution-aware
-images](https://flutter.dev/docs/development/ui/assets-and-images#resolution-aware).
+3. Install dependencies:
 
-## Localization
+    ```bash
+    flutter pub get
+    ```
 
-This project generates localized messages based on arb files found in
-the `lib/src/localization` directory.
+4. Run the app:
 
-To support additional languages, please visit the tutorial on
-[Internationalizing Flutter
-apps](https://flutter.dev/docs/development/accessibility-and-localization/internationalization)
+    ```bash
+    flutter run
+    ```
 
+## Structure
 
--- Folder structure added
--- Page wrapper added
--- converting sample_item_view to stateful
--- use page wrapper
--- separate loading message
+The project structure follows best practices for a Flutter project:
+
+- **lib/:** Contains the main Dart code.
+  - **models/:** Data models for the application.
+  - **services/:** Service classes for fetching data.
+  - **widgets/:** Reusable UI components.
+  - **wrappers/:** PageWrapper widget and related files.
+  - **screens/:** Views for different screens.
+- **assets/:** Contains static assets, such as the sample_items.json file.
+
+## Usage
+
+- **PageWrapper:** Use the `PageWrapper` widget to handle loading, error, and success states in your pages. Customize loading and error UI as needed.
+
+- **SampleItemService:** Modify the service class to fetch data from your desired source.
+
+- **SampleItemListView and SampleItemDetailsView:** Customize these views to display your data in a list and show details.
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
