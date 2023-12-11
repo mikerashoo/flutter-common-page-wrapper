@@ -28,3 +28,10 @@ the `lib/src/localization` directory.
 To support additional languages, please visit the tutorial on
 [Internationalizing Flutter
 apps](https://flutter.dev/docs/development/accessibility-and-localization/internationalization)
+
+
+-- Folder structure added
+-- Page wrapper added
+-- converting sample_item_view to stateful
+-- use page wrapper
+-- separate loading message
