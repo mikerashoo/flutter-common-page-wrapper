@@ -20,7 +20,7 @@ This Flutter project provides a common loading skeleton and error handling wrapp
 2. Navigate to the project directory:
 
     ```bash
-    cd flutter-common-loading-skeleton
+    cd flutter-common-page-wrapper
     ```
 
 3. Install dependencies:
